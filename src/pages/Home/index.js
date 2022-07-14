@@ -30,8 +30,8 @@ const Home = () => {
               The future of web 3 gaming
             </h1>
             <p className="text-white text-center md:text-left md:text-lg mt-2 max-w-sm md:ml-8 ">
-              OMITCH is building a decentralized gaming system owned by the
-              community where the community play with a pool of asset
+              OMITCH is a decentralized gaming system on the blockchain, where
+              users can play casino games and earn rewards for playing.
             </p>
           </div>
           <img
@@ -55,17 +55,14 @@ const Home = () => {
 
         <div className=" mt-16 md:mt-16 relative container max-w-screen-md mx-auto ">
           <h2 className="border text-center uppercase text-white w-80 mx-auto rounded-md font-heading font-bold py-1 text-sm tracking-wider">
-            why choose omitchbet
+            why choose omitch
           </h2>
           <p className="text-sm text-white text-center mt-5 px-8">
-            Omitchbet solves the age long and current problems in the TradBet
+            Omitch solves the age long and current problems in the TRADBET
             systems. It adopts the modern decentralised wallets tech to solve
             the problems associated with KYC and complex payouts method rampant
-            in the TradBet systems. Here, bettors( planktons) just connect their
-            wallets, deposit the $OMIT/$USDC in our liquidity pool, and place
-            bets by choosing the right odds. They receive their earnings by
-            having OMIT assests deposited into their wallets. All these are done
-            without identity verifications/proofs.
+            in the TRADBET systems. Here, users connect their wallet, deposit
+            their stable assets into the pool, and play to earn.
           </p>
         </div>
 
@@ -89,7 +86,7 @@ const Home = () => {
               </div>
               <p className="text-sm w-48 mt-32">
                 Play your favourite casino games and get rewarded. Enjoy playing
-                alone and with friends with a verity of games
+                alone and with friends with a varieties of games
               </p>
               <div className="bg-[#2663FF] w-[80px] text-center rounded text-sm py-1 mt-8">
                 Play
@@ -107,8 +104,8 @@ const Home = () => {
               </div>
               <p className="text-sm w-64 mt-32 ">
                 Stakers play import roles at omitch. Stakers deposit their
-                stable coins into the protocal to back bets, in exchange stakers
-                earn apy and partake in protocols profit and loss
+                stable coins into the protocol to back bets, in exchange stakers
+                earn APY and partake in protocol's profit and loss
               </p>
               <div className="bg-[#2663FF] w-[80px] text-center rounded text-sm py-1 mt-5">
                 Stake
@@ -135,14 +132,12 @@ const Home = () => {
             </div>
             <div>
               <div className="bg-[#75ADFF] text-center rounded-lg py-5 px-10 text-sm">
-                Deposit the $OMIT/USDC crypto assets at our platform's liquidity
-                pool.
+                Deposit your stable assets into our platform's pool.
               </div>
             </div>
             <div>
               <div className="bg-[#75ADFF] text-center rounded-lg py-5 px-10 text-sm">
-                Place bets and earn rewards for your passion with our great
-                odds.
+                Play games and earn rewards for your passion.
               </div>
             </div>
           </div>
@@ -154,10 +149,10 @@ const Home = () => {
             style={{ backgroundImage: "url(/img/home/fighter.svg)" }}
           >
             <h2 className="font-heading uppercase font-bold text-xl md:text-2xl text-left tracking-wider pt-8 pl-4 md:pt-32 md:pl-12">
-              Our community /p2
+              Our community
             </h2>
             <p className="text-md w-60 md:w-80 pl-4  md:pl-12">
-              Join our community to play with other gamers on our P2P platform
+              Join our community to play with other gamers on our platform
             </p>
           </div>
         </div>
@@ -202,9 +197,8 @@ const Home = () => {
               THE CHOICE IS YOURS
             </div>
             <p className="text-sm text-white text-center max-w-md mt-1">
-              You choose to win big, you choose to play from varieties of games
-              provided by OmitchBet which includes: Slots, Cards, Crash,
-              Roullettes, Baccarat, and lots of others.
+              Your choice to win big, play varieties of games which includes:
+              Slots, Cards, Crash, Roullettes, Baccarat, and lots more.
             </p>
           </div>
           <img
@@ -238,7 +232,7 @@ const Home = () => {
                 <FaDiscord className="text-white text-4xl" />
               </div>
               <div className="bg-orange text-center py-2 w-44 rounded-lg text-sm ">
-                Read our gitbook
+                <FaDiscord /> <span>Read our gitbook</span>
               </div>
             </div>
             <div></div>

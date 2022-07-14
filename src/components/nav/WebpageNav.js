@@ -7,7 +7,7 @@ export const WebpageNav = () => {
   const [sideNav, setsideNav] = useState(false);
   return (
     <>
-      <div className="hidden lg:flex bg-[#0F0631] md:flex-row z-30 px-4 md:px-8 py-3 md:py-4 w-full  ">
+      <div className="hidden relative lg:flex bg-[#0F0631] md:flex-row z-30 px-4 md:px-8 py-3 md:py-4 w-full  ">
         <div className="flex-none">
           <img className="h-8" src="/img/nav/logo.svg" />
         </div>
@@ -19,10 +19,10 @@ export const WebpageNav = () => {
             Our Community
           </div>
           <div className=" text-center text-white  px-3 md:px-5 py-1 rounded-lg text-sm">
-            Stake
+            <a href="https://stake.omitch.com/">Stake</a>
           </div>
           <div className="bg-blueDark text-center text-white border border-borderGray px-3 md:px-5 py-1 rounded-lg text-sm ">
-            Launch App
+            <a href="https://app.omitch.com/">Launch App</a>
           </div>
         </div>
       </div>
@@ -56,10 +56,10 @@ export const WebpageNav = () => {
                     Our Community
                   </div>
                   <div className=" text-center text-white  px-3 md:px-5 py-1 rounded-lg text-sm">
-                    Stake
+                    <a href="https://stake.omitch.com/">Stake</a>
                   </div>
                   <div className="bg-blueDark w-32 mx-auto md:w-auto text-center text-white border border-borderGray px-3 md:px-5 py-1 rounded-lg text-sm ">
-                    Launch App
+                    <a href="app.omitch.com"> Launch App</a>
                   </div>
                 </div>
               </div>
